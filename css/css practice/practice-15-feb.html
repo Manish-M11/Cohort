@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      *{
+          /* flush css */
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+      }
+      nav{
+          display: flex;
+          background-color: rgb(250, 235, 215);
+          border: 2px solid black;
+          justify-content: space-around;
+          align-items: center;
+          padding: 20px 20px;
+          color: #a03d3d;
+      }
+      nav div ul {
+        display: flex;
+        gap: 20px;
+        list-style-type: none;
+        cursor: pointer;
+    }
+
+    nav div button{
+        padding: 5px 10px;
+        /* border: none; */
+        border-radius: 5px;
+        margin: 5px;
+        cursor: pointer;
+    }
+    nav div button:hover{
+      background-color: rgb(239, 138, 7);
+        color: #ffffff;
+    }
+
+    </style>
+
+    <style>
+      .hero {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: antiquewhite;
+        padding: 40px 80px;
+      }
+      .hero div {
+        width: 50%;
+        margin: 10px 20px;
+      }
+
+      .hero div h1 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+      }
+      .hero div p {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+      }
+
+      .hero div button {
+        padding: 8px 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 150px;
+        background-color: rgb(240, 177, 93);
+      }
+
+      .hero div button:hover{
+        background-color: rgb(239, 138, 7);
+      }
+
+      .hero div img {
+        width: 100%;
+        border-radius: 20px;
+        object-fit: cover;
+        box-shadow: 0 0 10px black;
+      }
+
+      .hero div img:hover {
+        rotate: -3deg;
+      }
+
+      .logo-text{
+        text-align: center;
+        font-size: 32px;
+        margin: 20px 0;
+      }
+
+      .logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 30px;
+        border: 2px solid black;
+        padding: 40px 40px;
+
+      }
+      .logo div img{
+        width: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+
+      .three-card {
+        display: flex;
+        margin: 40px 10%;
+        justify-content: space-evenly;
+        border: 2px solid black;
+        padding: 20px 40px;
+        box-shadow: 0 0 5px black;
+      }
+
+      .card{
+        border: 2px solid black;
+        width: 20%;
+        border-radius: 5px;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 0 10px black;
+      }
+
+      .card img{
+        width: 180px;
+        object-fit: cover;
+        border-radius: 10px;
+        border: 1px solid black;
+      }
+
+      .card h3 {
+        margin: 15px 0;
+      }
+      .card p {
+        margin: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div>
+        <p>Logo</p>
+      </div>
+      <div>
+        <ul>
+          <li>Home</li>
+          <li>About us</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div>
+        <button>Login</button>
+        <button>Signup</button>
+      </div>
+    </nav>
+    <section class="hero">
+      <div>
+        <h1>Hero title</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero odit
+          rem suscipit ipsum aliquam animi eos quam temporibus optio
+          repellendus.
+        </p>
+        <button>Sign Up</button>
+      </div>
+      <div>
+        <img src="../static/assets/person on computer.jpg" alt="" />
+      </div>
+    </section>
+
+    <h2 class="logo-text">Our clients</h2>
+    <section class="logo">
+      <div>
+        <img src="../static/assets/logo/logo 1.webp" alt="">
+      </div>
+      <div>
+        <img src="../static/assets/logo/logo 2.webp" alt="">
+      </div>
+      <div>
+        <img src="../static/assets/logo/logo 3.webp" alt="">
+      </div>
+      <div>
+        <img src="../static/assets/logo/logo 4.webp" alt="">
+      </div>
+      <div>
+        <img src="../static/assets/logo/logo 5.webp" alt="">
+      </div>
+    </section>
+
+    <section class="three-card">
+      <div class="card">
+        <img src="../static/assets/men on computer 2.jpg" alt="">
+        <h3>Card Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis inventore pariatur reprehenderit corporis porro officiis iure nesciunt consequuntur laboriosam amet!
+        </p>
+      </div>
+
+      <div class="card">
+        <img src="../static/assets/men on computer 2.jpg" alt="">
+        <h3>Card Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis inventore pariatur reprehenderit corporis porro officiis iure nesciunt consequuntur laboriosam amet!
+        </p>
+      </div>
+
+      <div class="card">
+        <img src="../static/assets/men on computer 2.jpg" alt="">
+        <h3>Card Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis inventore pariatur reprehenderit corporis porro officiis iure nesciunt consequuntur laboriosam amet!
+        </p>
+      </div>
+    </section>
+  </body>
+</html>

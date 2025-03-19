@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .three-card{
+            margin: 20px 10%;
+            display: flex;
+            justify-content: space-evenly;
+            border: 2px solid ;
+            padding: 40px 80px;
+            box-shadow: 0 0 10px black;
+        }
+
+        .three-card div{
+            border: 2px solid;
+            width: 20%;
+            border-radius: 20px;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 0 10px black;
+        }
+        .three-card div img{
+            width: 200px;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+
+        .three-card div h3{
+            margin: 4px 0;
+        }
+
+        .three-card div p{
+            margin: 4px 0;
+        }
+
+        @media screen and (max-width: 978) {
+            body{
+                background-color: orange;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="three-card">
+        <div class="card">
+            <img src="/assets/hero.avif" alt="">
+            <h3>Card title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dignissimos consequatur incidunt? Architecto exercitationem consequatur numquam at nobis tempore dolor!</p>
+        </div>
+        <div class="card">
+            <img src="/assets/hero.avif" alt="">
+            <h3>Card title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dignissimos consequatur incidunt? Architecto exercitationem consequatur numquam at nobis tempore dolor!</p>
+        </div>
+        <div class="card">
+            <img src="/assets/hero.avif" alt="">
+            <h3>Card title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dignissimos consequatur incidunt? Architecto exercitationem consequatur numquam at nobis tempore dolor!</p>
+        </div>
+    </section>
+</body>
+</html>
